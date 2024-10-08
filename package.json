@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.1.2",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.14"
+  }
+}
