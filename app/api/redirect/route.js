@@ -1,6 +1,6 @@
 export async function GET() {
   return Response.json({ redirectByClient: "/home" }, {
-    status: 307,
+    status: 200,
     headers: {
       "Access-Control-Allow-Origin": "*", 
       "Content-Type": "application/json; charset=utf-8"
